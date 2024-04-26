@@ -1,3 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Pruebas en <PrimeraBisApp /> Debe coincidir (hacer match) con el snapshot 1`] = `undefined`;
+exports[`Pruebas en <PrimeraBisApp /> Debe coincidir (hacer match) con el snapshot 1`] = `
+<div>
+  <h1
+    data-testid="test-titulo"
+  >
+    La Senda del Tiempo
+  </h1>
+  <p>
+    No aparece el subtitulo
+  </p>
+  <p>
+    No aparece el subtitulo
+  </p>
+  <p>
+    Raul Lopezosa
+  </p>
+</div>
+`;

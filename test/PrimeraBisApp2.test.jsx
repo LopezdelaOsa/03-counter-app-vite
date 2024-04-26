@@ -8,8 +8,8 @@ describe ('Pruebas en <PrimeraBisApp />', () => {
     const subTitulo = 'Celtas Cortos'
 
     test('Debe coincidir (hacer match) con el snapshot', () => { 
-        const {contanier} = render (<PrimeraBisApp titulo={titulo} />)
-        expect (contanier).toMatchSnapshot()
+        const {container} = render (<PrimeraBisApp titulo={titulo} />) //container
+        expect (container).toMatchSnapshot()
     })
 
     test('Debe mostrar literalmente "La Senda del Tiempo"', () => { 
